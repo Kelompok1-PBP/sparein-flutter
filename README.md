@@ -16,7 +16,7 @@
 
 ---
 
-Aplikasi mobile Flutter untuk **Sparein** — panduan perbaikan barang dan direktori suku cadang untuk menekan limbah elektronik. Proyek Akhir Semester PBP Gasal 2026/2027, **Kelompok 1**.
+Aplikasi mobile Flutter untuk **Sparein**, panduan perbaikan barang dan direktori suku cadang untuk menekan limbah elektronik. Proyek Akhir Semester PBP Gasal 2026/2027, **Kelompok 1**.
 
 > Status: kerangka awal (Checkpoint 1). Bagian bertanda `TODO` wajib dilengkapi sebelum tenggat.
 
