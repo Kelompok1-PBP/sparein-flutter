@@ -1,5 +1,28 @@
 # Panduan Kolaborasi
 
+## Timeline
+
+```mermaid
+gantt
+  title Final Project Timeline, Kelompok 1
+  dateFormat YYYY-MM-DD
+  axisFormat %d %b
+  section Checkpoint 1
+  Scoping & API                :cp1, 2026-11-19, 2026-11-21
+  section Sprint 1
+  M1 Devices (API & UI)        :m1, 2026-11-21, 2026-11-28
+  M2 Diagnostics (API & UI)    :m2, 2026-11-21, 2026-11-28
+  M3 Guides (API & UI)         :m3, 2026-11-21, 2026-11-28
+  M4 Parts (API & UI)          :m4, 2026-11-21, 2026-11-28
+  M5 Journal (API & UI)        :m5, 2026-11-21, 2026-11-28
+  section Sprint 2
+  JSON Integration & Forms     :w2, 2026-11-28, 2026-12-05
+  section Release
+  Testing & Polishing          :fix, 2026-12-05, 2026-12-08
+  APK Build & Release          :apk, 2026-12-06, 2026-12-09
+  Final Submission             :milestone, fin, 2026-12-09, 0d
+```
+
 ## Alur kerja
 
 1. Ambil terbaru: `git checkout main && git pull`
