@@ -8,11 +8,11 @@ Aplikasi mobile Flutter untuk **Sparein** — panduan perbaikan barang dan direk
 
 | Nama | NPM | GitHub | Modul |
 | ---- | --- | ------ | ----- |
-| TODO | TODO | [@hannazerlina](https://github.com/hannazerlina) | TODO |
-| TODO | TODO | [@Kiara996](https://github.com/Kiara996) | TODO |
-| TODO | TODO | [@msystemctrl](https://github.com/msystemctrl) | TODO |
-| TODO | TODO | [@muhamadayrazhan](https://github.com/muhamadayrazhan) | TODO |
-| TODO | TODO | [@zidanristek](https://github.com/zidanristek) | TODO |
+| Muhammad Sultan Zidan | 2506534876 | [@zidanristek](https://github.com/zidanristek) | TODO |
+| Kevin Fauzan Arjuna | 2506612266 | [@Kiara996](https://github.com/Kiara996) | TODO |
+| Hanna Zerlina Razaq Putri Wicaksono | 2506594692 | [@hannazerlina](https://github.com/hannazerlina) | TODO |
+| Marsya Rizka Aulia | 2506537606 | [@msystemctrl](https://github.com/msystemctrl) | TODO |
+| Muhamad Ayrazhan | 2506586236 | [@muhamadayrazhan](https://github.com/muhamadayrazhan) | TODO |
 
 ## Deskripsi Aplikasi
 
