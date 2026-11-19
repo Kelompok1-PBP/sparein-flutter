@@ -57,7 +57,7 @@ TODO: jelaskan alur autentikasi dan contoh request/response.
 
 ## Menjalankan Secara Lokal
 
-Prasyarat: Flutter stable, Android SDK/emulator.
+Prasyarat: Flutter 3.47.9 (stable), Android SDK/emulator. Versi dikunci di CI, samakan dengan `flutter --version`.
 
 ```bash
 flutter pub get
