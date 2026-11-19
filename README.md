@@ -24,31 +24,34 @@ Aplikasi mobile Flutter untuk **Sparein** — panduan perbaikan barang dan direk
 
 | Nama | NPM | GitHub | Modul |
 | ---- | --- | ------ | ----- |
-| Muhammad Sultan Zidan | 2506534876 | [@zidanristek](https://github.com/zidanristek) | TODO |
-| Kevin Fauzan Arjuna | 2506612266 | [@Kiara996](https://github.com/Kiara996) | TODO |
-| Hanna Zerlina Razaq Putri Wicaksono | 2506594692 | [@hannazerlina](https://github.com/hannazerlina) | TODO |
-| Marsya Rizka Aulia | 2506537606 | [@msystemctrl](https://github.com/msystemctrl) | TODO |
-| Muhamad Ayrazhan | 2506586236 | [@muhamadayrazhan](https://github.com/muhamadayrazhan) | TODO |
+| Muhammad Sultan Zidan | 2506534876 | [@zidanristek](https://github.com/zidanristek) | M1 Devices |
+| Kevin Fauzan Arjuna | 2506612266 | [@Kiara996](https://github.com/Kiara996) | M2 Diagnostics |
+| Hanna Zerlina Razaq Putri Wicaksono | 2506594692 | [@hannazerlina](https://github.com/hannazerlina) | M3 Guides |
+| Muhamad Ayrazhan | 2506586236 | [@muhamadayrazhan](https://github.com/muhamadayrazhan) | M4 Parts |
+| Marsya Rizka Aulia | 2506537606 | [@msystemctrl](https://github.com/msystemctrl) | M5 Journal |
 
 ## Deskripsi Aplikasi
 
-**Sparein** — TODO: fungsi aplikasi (samakan dengan situs web PTS).
+**Sparein** adalah aplikasi panduan perbaikan barang dan direktori suku cadang untuk pengguna Indonesia. Alurnya: cari perangkat, diagnosa gejala, ikuti panduan, temukan suku cadang, catat hasilnya. Setiap perbaikan yang dicatat dihitung sebagai barang yang tidak jadi dibuang, lengkap dengan estimasi limbah dan biaya yang terhindar.
 
 ## Modul dan Pembagian Kerja
 
-| Modul | Penanggung jawab | Endpoint Django REST Framework |
-| ----- | ---------------- | ------------------------------ |
-| Devices | TODO | TODO |
-| Diagnostics | TODO | TODO |
-| Guides | TODO | TODO |
-| Journal | TODO | TODO |
-| Parts | TODO | TODO |
-
-> Kandidat modul diambil dari app Django `sparein` (`devices`, `diagnostics`, `guides`, `journal`, `parts`). Finalisasi scoping saat Checkpoint 1.
+| Modul | Fungsi | Penanggung jawab | Endpoint Django REST Framework |
+| ----- | ------ | ---------------- | ------------------------------ |
+| M1 Devices | Katalog perangkat | Muhammad Sultan Zidan | `/api/v1/devices/` |
+| M2 Diagnostics | Diagnosa gejala kerusakan | Kevin Fauzan Arjuna | `/api/v1/symptoms/`, `/api/v1/diagnose/` |
+| M3 Guides | Panduan perbaikan | Hanna Zerlina Razaq Putri Wicaksono | `/api/v1/guides/` |
+| M4 Parts | Direktori suku cadang | Muhamad Ayrazhan | `/api/v1/parts/` |
+| M5 Journal | Jurnal perbaikan dan dampak | Marsya Rizka Aulia | `/api/v1/journal/`, `/api/v1/journal/summary/` |
 
 ## Peran / Aktor Pengguna
 
-TODO
+| Peran | Akses |
+| ----- | ----- |
+| **Visitor**, belum login | Cari perangkat, baca ringkasan panduan, lihat katalog suku cadang tanpa harga dan kontak penjual |
+| **Member**, pengguna terdaftar | Hak Visitor, ditambah langkah panduan lengkap, harga dan kontak penjual, serta jurnal perbaikan pribadi |
+| **Contributor**, member terverifikasi | Hak Member, ditambah menulis panduan dan mendaftarkan suku cadang |
+| **Admin** | Moderasi konten dan verifikasi Contributor |
 
 ## Alur Integrasi Data (Flutter ⇄ Django)
 
