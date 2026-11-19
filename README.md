@@ -48,7 +48,7 @@ TODO: jelaskan alur autentikasi dan contoh request/response.
 
 ## Desain
 
-- Figma: TODO
+- Figma: [SPAREIN UI/UX](https://www.figma.com/design/3CLBNpsD0kUO5lSkgITv2U/SPAREIN-UI-UX?node-id=0-1)
 
 ## Unduh APK
 
