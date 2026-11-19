@@ -5,17 +5,18 @@ import 'package:sparein_mobile/main.dart';
 void main() {
   testWidgets('bottom bar berpindah ke tiap halaman modul', (tester) async {
     await tester.pumpWidget(const SpareinApp());
-    for (final name in [
-      'Devices',
-      'Diagnostics',
-      'Guides',
-      'Parts',
-      'Journal',
-    ]) {
-      await tester.tap(find.widgetWithText(NavigationDestination, name));
+    const titles = {
+      'Devices': 'Perangkat',
+      'Diagnostics': 'Diagnostics',
+      'Guides': 'Guides',
+      'Parts': 'Parts',
+      'Journal': 'Journal',
+    };
+    for (final MapEntry(key: tab, value: title) in titles.entries) {
+      await tester.tap(find.widgetWithText(NavigationDestination, tab));
       await tester.pumpAndSettle();
       expect(
-        find.descendant(of: find.byType(AppBar), matching: find.text(name)),
+        find.descendant(of: find.byType(AppBar), matching: find.text(title)),
         findsOneWidget,
       );
     }
