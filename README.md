@@ -1,4 +1,20 @@
-# Sparein Mobile
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/brand/sparein-lockup-dark.svg">
+    <img src="docs/brand/sparein-lockup.svg" alt="Sparein" width="420">
+  </picture>
+</p>
+
+<p align="center"><em>Repair first, discard last.</em></p>
+
+<p align="center">
+  <a href="../../actions/workflows/ci.yml"><img alt="CI" src="../../actions/workflows/ci.yml/badge.svg?branch=staging"></a>
+  <a href="../../actions/workflows/release-apk.yml"><img alt="Release APK" src="../../actions/workflows/release-apk.yml/badge.svg"></a>
+  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-3.47-02569B">
+  <img alt="Dart" src="https://img.shields.io/badge/Dart-3.13-0175C2">
+</p>
+
+---
 
 Aplikasi mobile Flutter untuk **Sparein** — panduan perbaikan barang dan direktori suku cadang untuk menekan limbah elektronik. Proyek Akhir Semester PBP Gasal 2026/2027, **Kelompok 1**.
 
