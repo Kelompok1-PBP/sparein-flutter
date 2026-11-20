@@ -5,9 +5,6 @@ class GuidesPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Guides')),
-      body: const Center(child: Text('Guides')),
-    );
+    return Scaffold(appBar: AppBar(title: const Text('Panduan Perbaikan')));
   }
 }
