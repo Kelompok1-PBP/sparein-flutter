@@ -26,7 +26,7 @@ Aplikasi mobile Flutter untuk **Sparein** — panduan perbaikan barang dan direk
 | ---- | --- | ------ | ----- |
 | Muhammad Sultan Zidan | 2506534876 | [@zidanristek](https://github.com/zidanristek) | M1 Devices |
 | Kevin Fauzan Arjuna | 2506612266 | [@Kiara996](https://github.com/Kiara996) | M2 Diagnostics |
-| Hanna Zerlina Razaq Putri Wicaksono | 2506594692 | [@hannazerlina](https://github.com/hannazerlina) | M3 Guides |
+| Hanna Zerlina Razaq Putri Wicaksono | 2506594692 | [@hannazerlina](https://github.com/hannazerlina) | M3 Panduan Perbaikan |
 | Muhamad Ayrazhan | 2506586236 | [@muhamadayrazhan](https://github.com/muhamadayrazhan) | M4 Parts |
 | Marsya Rizka Aulia | 2506537606 | [@msystemctrl](https://github.com/msystemctrl) | M5 Journal |
 
@@ -40,7 +40,7 @@ Aplikasi mobile Flutter untuk **Sparein** — panduan perbaikan barang dan direk
 | ----- | ------ | ---------------- | ------------------------------ |
 | M1 Devices | Katalog perangkat | Muhammad Sultan Zidan | `/api/v1/devices/` |
 | M2 Diagnostics | Diagnosa gejala kerusakan | Kevin Fauzan Arjuna | `/api/v1/symptoms/`, `/api/v1/diagnose/` |
-| M3 Guides | Panduan perbaikan | Hanna Zerlina Razaq Putri Wicaksono | `/api/v1/guides/` |
+| [M3 Panduan Perbaikan](lib/modules/guides/README.md) | Ringkasan, peringatan, dan langkah perbaikan | Hanna Zerlina Razaq Putri Wicaksono | `/api/v1/guides/` |
 | M4 Parts | Direktori suku cadang | Muhamad Ayrazhan | `/api/v1/parts/` |
 | M5 Journal | Jurnal perbaikan dan dampak | Marsya Rizka Aulia | `/api/v1/journal/`, `/api/v1/journal/summary/` |
 
